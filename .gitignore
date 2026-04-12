@@ -1,0 +1,27 @@
+# 排除敏感文件
+*.env
+*.key
+*.pem
+*.token
+secrets.*
+*password*
+*.secret
+
+# 配置文件（可能包含 API key）
+llm-config.json
+config.json
+settings.json
+
+# 飞书 webhook 配置
+feishu-webhook.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
